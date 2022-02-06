@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        /* eslint-disable */
+
+        /* Этот код менять не нужно */
+        const defaultUserName = 'anonymus';
+        const userName = 'John';
+        const anotherUser = null;
+        const isAdmin = false;
+        const message = 'text';
+        const anotherMessage = 'text as well';
+        const isLoggedIn = Boolean(userName);
+
+        /* В коде ниже нужно использовать правильные операторы после знака присваивания */
+        let activeUser = defaultUserName;
+        let hasAccess = isAdmin < isLoggedIn;
+        let isTruthy = message < anotherMessage;
+        let isFalsy = !isLoggedIn;
+        let isNotTrue = typeof message === 'number';
+        let isTrue = typeof message != 'boolean';
+
+        console.log(activeUser);
+        console.log(hasAccess);
+        console.log(isTruthy);
+        console.log(isFalsy);
+        console.log(isNotTrue);
+        console.log(isTrue);
+    </script>
+</body>
+
+</html>
